@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-</head>
-<body>
-    <div id="container">
-    <button id="add-btn">+</button>
-    <button id="sub-btn">-</button>
-    <button id="mul-btn">x</button>
-    <button id="div-btn">/</button>
-    <button id="num1">1</button>
-    <button id="num2">2</button>
-    <button id="num3">3</button>
-    <button id="num4">4</button>
-    <button id="num5">5</button>
-    <button id="num6">6</button>
-    <button id="num7">7</button>
-    <button id="num8">8</button>
-    <button id="num9">9</button>
-    <button id="num0">0</button>
-    <button id="equal-btn">=</button>
-</div>
-    <script src="app.js"></script>
-</body>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" href="./icon.png" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div id="display"></div>
+        <div class="buttons">
+          <div class="button">AC</div>
+          <div class="button">/</div>
+          <div class="button">*</div>
+          <div class="button">&larr;</div>
+          <div class="button">7</div>
+          <div class="button">8</div>
+          <div class="button">9</div>
+          <div class="button">-</div>
+          <div class="button">4</div>
+          <div class="button">5</div>
+          <div class="button">6</div>
+          <div class="button">+</div>
+          <div class="button">1</div>
+          <div class="button">2</div>
+          <div class="button">3</div>
+          <div class="button">.</div>
+          <div class="button">(</div>
+          <div class="button">0</div>
+          <div class="button">)</div>
+          <div class="button" id="equal">=</div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="footer">Copyright &copy 2022 Atul Kumar Pandey</div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
